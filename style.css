@@ -46,6 +46,10 @@ header nav {
     padding: 4px 20px;
 }
 
+.popo input {
+    background-color: transparent;
+}
+
 body {
     background-color: #232022;
     color: #D9D9D9;
