@@ -17,6 +17,7 @@
     --search-bar: #D9D9D9;
     --white: #FFFFFF;
     --black: #000000;
+    --grey-text: 
     --text-small: 12px;
     --text-base: 16px;
     --text-title: 24px;
@@ -30,9 +31,22 @@
     --logo-large: 56px;
     --content-page-inbetween: 30px;
 
+}
 
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.popo {
+    display: flex;
+    background-color: var(--search-bar);
+    padding: 4px 20px;
 }
 
 body {
     background-color: #232022;
+    color: #D9D9D9;
 }
