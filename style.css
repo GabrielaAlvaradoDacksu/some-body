@@ -40,10 +40,16 @@ header nav {
     padding: 30px 60px;
 }
 
+.searchform {
+    display: flex;
+
+}
+
 .popo {
     display: flex;
     background-color: var(--search-bar);
-    padding: 4px 20px;
+    padding: 4px 40px;
+    border-radius: 10px;
 }
 
 .popo input {
