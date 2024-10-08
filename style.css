@@ -68,13 +68,9 @@ details {
     align-items: start;
     gap: 10px;
     background-color: var(--aside-color);
+    padding: 20px 20px;
 
  
-}
-
-.sidebar hr {
-    background-color: #FFFFFF;
-    padding: 1px 150px;
 }
 
 .buba {
@@ -82,12 +78,54 @@ details {
     align-items: center;
     background-color: var(--background-color);
     border-radius: 10px;
-    padding: 5px 5px;
+    padding: 10px 50px;
 
 }
 
 .buba input {
     background-color: transparent;
+
+}
+
+.sidebar hr {
+    background-color: #FFFFFF;
+    padding: 1px 150px;
+}
+
+.options select {
+    display: flex;
+
+}
+
+.options img {
+    height: 50px;
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons > button {
+    display: flex;
+    align-items: center;
+    padding: 5px 80px;
+    background-color: transparent;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    color: #FFFFFF;
+
+}
+
+.tracklist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tracklist > img {
+    height: 60px;
 
 }
 
