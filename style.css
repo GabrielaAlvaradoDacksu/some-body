@@ -42,18 +42,53 @@ header nav {
 
 .searchform {
     display: flex;
+    gap: 8px;
 
 }
 
 .popo {
     display: flex;
     background-color: var(--search-bar);
-    padding: 4px 40px;
+    padding: 1px 40px;
     border-radius: 10px;
 }
 
 .popo input {
     background-color: transparent;
+    padding: 1px 40px;
+}
+
+.sidebar {
+
+    height: 100vh;
+    width: 80px;
+    background-color: var(--aside-color);
+    padding: .4rem .8rem;
+    transition: 0.5s ease;
+}
+
+.sidebar.active  ~ .main-content {
+    left: 250px;
+    width: calc(100% - 250px);
+}
+
+.sidebar.active {
+    width: 250px;
+}
+
+.arrow img {
+    height: 40px;
+}
+
+.buba {
+    display: flex;
+    background-color: var(--aside-color);
+
+}
+
+.buba input {
+    background-color: transparent;
+
 }
 
 body {

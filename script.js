@@ -17,3 +17,10 @@ axios.get('https://api.institutoalfa.org/api/songs').then((response) => {
         contenedor.appendChild(div)
     })
 })
+
+let doof = document.querySelector('#doof');
+    let sidebar = document.querySelector('#sidebar');
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active');
+    };
