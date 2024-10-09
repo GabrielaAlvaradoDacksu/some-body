@@ -127,21 +127,45 @@ button a {
     font-size: var(--text-base);
 }
 
-.track-music {
+.containermusic > .track-music {
+
+    display: flex;
     margin-left: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
 }
+
 .track-music {
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: space-between;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+
 }
 
 .song-images {
-    height: 60px;
+    height: 40px;
     border-radius: 100%;
+    
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E4E0C2;
+    color: #000000;
+}
+.song-thumbnail {
+    gap: 10px;
+}
+
+.song-thumbnail > button {
+    background-color: transparent;
 
 }
+
 
 body {
     background-color: #232022;
