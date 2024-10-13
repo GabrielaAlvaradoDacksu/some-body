@@ -10,6 +10,14 @@
     list-style: none;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: robotlight;
+    src: url(/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: rubix;
+    src: url(/Rubik-Regular.ttf);
+}
 :root {
     --background-color: #1B1A1A;
     --search-bar: #D9D9D9;
@@ -72,6 +80,46 @@ header nav {
     height: 200px;
     border-radius: var(--border);
     
+}
+
+
+
+
+footer {
+    margin-bottom: 60px;
+}
+
+.foottext {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 60px;
+
+    
+}
+
+.foottext h1 {
+    font-family: rubix;
+    font-size: var(--text-title-large);
+}
+
+.foottext p {
+    font-size: var(--text-base);
+    color: var(--grey-text);
+}
+
+.footend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+.footend li {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: var(--grey-text);
+
 }
 
 

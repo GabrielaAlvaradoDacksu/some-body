@@ -6,9 +6,17 @@
     text-decoration: none;
     font-size: 1rem;
     font-weight: 400;
-    font-family: 'Roboto-Regular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto-Regular','Rubik','Segoe UI', Tahoma, Verdana, sans-serif;
     list-style: none;
     box-sizing: border-box;
+}
+@font-face {
+    font-family: robotlight;
+    src: url(/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: rubix;
+    src: url(/Rubik-Regular.ttf);
 }
 :root {
     --background-color: #1B1A1A;
@@ -60,11 +68,66 @@ header nav {
     padding: 1px 40px;
 }
 
+
 .jumbotron {
     background-image: url(/Mask\ group.png);
     background-size: cover;
     background-position: center;
-    padding: 400px 60px;
+    padding: 100px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25rem;
+
+
+}
+
+.neigh {
+    height: 30rem;
+
+}
+
+.jumbotron h3 {
+    color: var(--grey-text);
+    font-size: var(--text-title);
+    font-family: robotlight;
+}
+
+footer {
+    margin-bottom: 60px;
+}
+
+.foottext {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 60px;
+
+    
+}
+
+.foottext h1 {
+    font-family: rubix;
+    font-size: var(--text-title-large);
+}
+
+.foottext p {
+    font-size: var(--text-base);
+    color: var(--grey-text);
+}
+
+.footend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+.footend li {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: var(--grey-text);
+
 }
 
 
