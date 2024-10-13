@@ -100,6 +100,7 @@ footer {
 .foottext h1 {
     font-family: rubix;
     font-size: var(--text-title-large);
+    padding: 10px 0px;
 }
 
 .foottext p {
