@@ -8,8 +8,11 @@ axios.get('https://api.institutoalfa.org/api/songs').then((response) => {
         div.setAttribute('class', 'track-music')
 
         div.innerHTML = `
-                <img src="https://api.institutoalfa.org/api/songs/image/${song.image.filename}" class="song-images">
-                    <div>
+                <a href="/content.html"><img src="https://api.institutoalfa.org/api/songs/image/${song.image.filename}" class="song-images"></a>
+                <div class="mini-play">
+                    <img src="/mini.svg" alt="">
+                </div>
+                    <div class="text-song">
                         <h3 class="song-name">${song.title}</h3>
                         <p class="artist">${song.author}</p>
                     </div>
